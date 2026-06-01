@@ -1,0 +1,116 @@
+========================================
+DEPLOYMENT FIX COMMANDS
+========================================
+
+STEP 1: Navigate to project folder
+========================================
+cd "c:\Users\aflff\OneDrive\سطح المكتب\2.sınıf_ 2 dönem dersleri\projeler\proje 3\New folder"
+
+
+STEP 2: Remove incorrectly placed files from GitHub
+========================================
+git rm index.html
+git rm script.js
+git rm style.css
+git rm counter.txt
+git rm islem_1.json
+git rm islem_1.txt
+
+
+STEP 3: Add correct folder structure
+========================================
+git add templates/
+git add static/
+git add uploads/
+git add history/
+git add runtime.txt
+git add Procfile
+git add requirements.txt
+git add app.py
+git add heap.py
+
+
+STEP 4: Commit changes
+========================================
+git commit -m "Fix project structure for deployment"
+
+
+STEP 5: Push to GitHub
+========================================
+git push origin main
+
+
+STEP 6: Wait for Render auto-deploy
+========================================
+Render will automatically detect the changes and redeploy.
+Or click "Manual Deploy" button in Render dashboard.
+
+
+========================================
+EXPECTED RESULT ON GITHUB:
+========================================
+
+Root folder:
+  - .gitignore
+  - Procfile
+  - runtime.txt
+  - requirements.txt
+  - app.py
+  - heap.py
+  - README.md
+
+templates/
+  - index.html
+
+static/
+  css/
+    - style.css
+  js/
+    - script.js
+
+uploads/
+  - .gitkeep
+
+history/
+  - README.txt
+
+
+========================================
+IF ERRORS OCCUR:
+========================================
+
+Error: "fatal: pathspec 'index.html' did not match any files"
+Solution: File already removed, skip that command and continue
+
+Error: "nothing to commit"
+Solution: Files already added, proceed to push command
+
+Error: "failed to push"
+Solution: Run "git pull origin main" first, then push again
+
+
+========================================
+VERIFICATION:
+========================================
+
+After pushing, check GitHub repository:
+1. Open: https://github.com/abdullahasi388-sudo/kelime-analizi
+2. Verify folder structure matches expected result above
+3. Check Render logs for successful deployment
+
+
+========================================
+RENDER MANUAL DEPLOY:
+========================================
+
+If auto-deploy doesn't start:
+1. Go to Render dashboard
+2. Click on "kelime-analizi" service
+3. Click "Manual Deploy" button (top right)
+4. Select "Clear build cache & deploy"
+5. Wait 5-10 minutes
+
+
+========================================
+END OF COMMANDS
+========================================

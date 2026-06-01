@@ -1,0 +1,12 @@
+Python programlama dili çok güçlü bir dildir. Python ile web geliştirme yapabilirsiniz.
+Python ayrıca veri bilimi için de kullanılır. Makine öğrenmesi ve yapay zeka projeleri Python ile geliştirilir.
+Flask bir Python web framework'üdür. Flask ile hızlı ve kolay web uygulamaları geliştirebilirsiniz.
+Heap veri yapısı çok önemlidir. Heap yapısı öncelik kuyruklarında kullanılır.
+Algoritma ve veri yapıları programlamanın temelidir. Veri yapıları öğrenmek çok önemlidir.
+Python öğrenmek kolaydır. Python syntax'ı çok temizdir. Python topluluk desteği çok güçlüdür.
+Web geliştirme modern dünyanın vazgeçilmezidir. Web uygulamaları her yerde kullanılır.
+Veri analizi için Python en popüler dildir. Veri bilimi projeleri genellikle Python ile yapılır.
+Heap sort algoritması heap veri yapısını kullanır. Heap yapısı binary tree şeklindedir.
+Python Flask HTML CSS JavaScript ile birlikte kullanılır. Modern web uygulamaları bu teknolojilerle geliştirilir.
+Algoritma tasarımı problem çözme becerisi gerektirir. Veri yapıları algoritmaların temelini oluşturur.
+Python programlama öğrenmek için harika bir başlangıçtır. Python ile her şeyi yapabilirsiniz.

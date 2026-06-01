@@ -1,0 +1,59 @@
+╔══════════════════════════════════════════════════════════════════════╗
+║              KELIME ANALIZ SISTEMI - HIZLI BAŞLATMA                  ║
+╚══════════════════════════════════════════════════════════════════════╝
+
+🚀 3 ADIMDA BAŞLAT
+═══════════════════════════════════════════════════════════════════════
+
+1️⃣  Bağımlılıkları Yükle (İlk Kez)
+   > pip install -r requirements.txt
+
+2️⃣  Uygulamayı Başlat
+   > python app.py
+
+3️⃣  Tarayıcıda Aç
+   > http://localhost:5000
+
+
+📝 KULLANIM
+═══════════════════════════════════════════════════════════════════════
+
+YÖNTEM 1: Dosya Yükle
+• "Dosya Yükle" butonuna tıkla
+• .txt dosyası seç veya sürükle-bırak
+• Otomatik analiz başlar
+
+YÖNTEM 2: Metin Yaz
+• "Metin Yaz" butonuna tıkla
+• En az 10 kelime yaz
+• "Analiz Et" butonuna tıkla
+
+
+📊 SONUÇLARI GÖR
+═══════════════════════════════════════════════════════════════════════
+
+Sol menüden seç:
+✓ İstatistikler - Genel bilgiler
+✓ Kelime Listesi - Sıralı kelimeler
+✓ Heap Yapısı - Ağaç görselleştirmesi
+✓ Grafikler - İstatistiksel grafikler
+
+
+🎯 ÖNEMLİ NOTLAR
+═══════════════════════════════════════════════════════════════════════
+
+• Heap sıfırdan yazılmıştır (heapq kullanılmadı)
+• İki anahtarlı sıralama: İlk harf + Tekrar sayısı
+• Heap tree D3.js ile görselleştirilir
+• Dark/Light mode desteklenir
+
+
+📚 DAHA FAZLA BİLGİ
+═══════════════════════════════════════════════════════════════════════
+
+README.md                       → Genel bilgiler
+HEAP_ALGORITMA_ACIKLAMASI.md   → Heap detayları
+
+
+✅ BAŞARILAR!
+═══════════════════════════════════════════════════════════════════════

@@ -1,0 +1,78 @@
+╔══════════════════════════════════════════════════════════════════════╗
+║                    PROJE DOSYALARI LİSTESİ                           ║
+╚══════════════════════════════════════════════════════════════════════╝
+
+📁 ANA DOSYALAR
+═══════════════════════════════════════════════════════════════════════
+
+✅ app.py                           → Flask backend (5.5 KB)
+✅ heap.py                          → Heap Data Structure (8.7 KB)
+✅ requirements.txt                 → Python bağımlılıkları
+✅ sample_text.txt                  → Test dosyası
+
+
+📁 FRONTEND DOSYALARI
+═══════════════════════════════════════════════════════════════════════
+
+templates/
+  ✅ index.html                     → Ana sayfa (12 KB)
+
+static/css/
+  ✅ style.css                      → Tasarım (15 KB)
+
+static/js/
+  ✅ script.js                      → JavaScript (16 KB)
+
+
+📁 DOKÜMANTASYON
+═══════════════════════════════════════════════════════════════════════
+
+✅ README.md                        → Genel bilgiler
+✅ HEAP_ALGORITMA_ACIKLAMASI.md    → Heap detayları (10 KB)
+✅ NASIL_CALISTIRILIR.txt          → Hızlı başlangıç
+✅ PROJE_DOSYALARI.txt             → Bu dosya
+
+
+📁 DİĞER
+═══════════════════════════════════════════════════════════════════════
+
+✅ .gitignore                       → Git ignore kuralları
+✅ uploads/                         → Yüklenen dosyalar klasörü
+
+
+📊 TOPLAM
+═══════════════════════════════════════════════════════════════════════
+
+Python Dosyaları:    2 dosya  (~14 KB)
+HTML Dosyaları:      1 dosya  (~12 KB)
+CSS Dosyaları:       1 dosya  (~15 KB)
+JavaScript Dosyaları: 1 dosya  (~16 KB)
+Dokümantasyon:       4 dosya  (~15 KB)
+─────────────────────────────────────────────────────────────────────
+TOPLAM:              9 ana dosya + klasörler
+
+
+✨ ÖZELLİKLER
+═══════════════════════════════════════════════════════════════════════
+
+✓ Sıfırdan yazılmış Heap
+✓ İki anahtarlı sıralama
+✓ Modern web arayüzü
+✓ D3.js tree görselleştirmesi
+✓ Chart.js grafikleri
+✓ Dark/Light mode
+✓ Responsive tasarım
+✓ İki giriş seçeneği (dosya/metin)
+
+
+🎯 PROJE DURUMU
+═══════════════════════════════════════════════════════════════════════
+
+✅ Temiz ve düzenli
+✅ Gereksiz dosyalar kaldırıldı
+✅ Sadece gerekli dosyalar mevcut
+✅ Teslime hazır
+✅ Sunuma hazır
+
+
+═══════════════════════════════════════════════════════════════════════

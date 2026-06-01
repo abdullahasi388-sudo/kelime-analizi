@@ -1,0 +1,85 @@
+╔══════════════════════════════════════════════════════════════════════╗
+║                    ✨ YENİ ÖZELLİK: İŞLEM GEÇMİŞİ                   ║
+╚══════════════════════════════════════════════════════════════════════╝
+
+🎉 Artık tüm analiz işlemleri otomatik olarak kaydediliyor!
+
+═══════════════════════════════════════════════════════════════════════
+
+📝 NE YAPILDI?
+═══════════════════════════════════════════════════════════════════════
+
+✅ Her analiz işlemi numaralandırılıyor
+✅ İşlem detayları "history" klasörüne kaydediliyor
+✅ Tarih ve saat bilgisi ekleniyor
+✅ İstatistikler kaydediliyor
+✅ Analiz edilen tam metin kaydediliyor
+
+
+📁 NEREDE SAKLANIR?
+═══════════════════════════════════════════════════════════════════════
+
+history/
+├── counter.txt          → İşlem sayacı
+├── islem_1.txt         → 1. işlem (metin formatı)
+├── islem_1.json        → 1. işlem (JSON formatı)
+├── islem_2.txt         → 2. işlem
+├── islem_2.json        → 2. işlem
+└── ...
+
+
+📊 DOSYA İÇERİĞİ ÖRNEĞİ
+═══════════════════════════════════════════════════════════════════════
+
+======================================================================
+İŞLEM NUMARASI: 1
+TARİH: 2026-06-01 21:45:30
+======================================================================
+
+İSTATİSTİKLER:
+- Toplam Kelime: 150
+- Benzersiz Kelime: 45
+- En Çok Kullanılan: python (12 kez)
+
+======================================================================
+
+ANALİZ EDİLEN METİN:
+----------------------------------------------------------------------
+Python programlama dili çok güçlü bir dildir...
+----------------------------------------------------------------------
+
+
+🎯 NASIL KULLANILIR?
+═══════════════════════════════════════════════════════════════════════
+
+1. Normal şekilde dosya yükleyin veya metin yazın
+2. Analiz yapın
+3. İşlem otomatik olarak kaydedilir
+4. Bildirimde işlem numarası görünür: "İşlem #1 - Başarılı!"
+5. history/ klasöründen eski işlemlere bakabilirsiniz
+
+
+✨ AVANTAJLAR
+═══════════════════════════════════════════════════════════════════════
+
+✓ Tüm işlemler kayıtlı
+✓ Eski analizlere geri dönebilirsiniz
+✓ İstatistikleri karşılaştırabilirsiniz
+✓ Otomatik numaralandırma
+✓ Tarih/saat bilgisi
+✓ Hem TXT hem JSON formatında
+
+
+⚠️ DİKKAT
+═══════════════════════════════════════════════════════════════════════
+
+• history/ klasörünü silmeyin
+• counter.txt dosyasını değiştirmeyin
+• İşlem dosyalarını manuel silebilirsiniz (güvenli)
+
+
+═══════════════════════════════════════════════════════════════════════
+
+Artık hiçbir analiz kaybolmayacak! 🎉
+
+═══════════════════════════════════════════════════════════════════════
